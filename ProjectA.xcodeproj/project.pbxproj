@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		243073262A5DF82E006A87BB /* ProjectA.h in Headers */ = {isa = PBXBuildFile; fileRef = 243073252A5DF82E006A87BB /* ProjectA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2430732D2A5DF84A006A87BB /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2430732C2A5DF84A006A87BB /* TestClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		243073222A5DF82E006A87BB /* ProjectA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProjectA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		243073252A5DF82E006A87BB /* ProjectA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectA.h; sourceTree = "<group>"; };
+		2430732C2A5DF84A006A87BB /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				243073252A5DF82E006A87BB /* ProjectA.h */,
+				2430732C2A5DF84A006A87BB /* TestClass.swift */,
 			);
 			path = ProjectA;
 			sourceTree = "<group>";
@@ -93,6 +96,7 @@
 				TargetAttributes = {
 					243073212A5DF82E006A87BB = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -129,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2430732D2A5DF84A006A87BB /* TestClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +262,8 @@
 		2430732A2A5DF82E006A87BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -268,6 +275,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -276,8 +284,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.northwestern.mobiletoolbox.ProjectA;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -285,6 +295,8 @@
 		2430732B2A5DF82E006A87BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -296,6 +308,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -304,7 +317,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = edu.northwestern.mobiletoolbox.ProjectA;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};

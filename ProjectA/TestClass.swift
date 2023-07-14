@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+
+public class TestClass {
+
+	public init() {}
+	
+	public func summ(a: Int, b: Int) -> Int {
+		return a + b
+	}
+}
