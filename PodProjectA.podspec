@@ -11,8 +11,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "A CocoaPods test library written in Swift."
 
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "test cocoapodpod"
   
   spec.homepage     = "https://github.com/elkasvirElka/ProjectAPod"
   spec.license      = { :type => "Heliumfoot", :file => "LICENSE" }
