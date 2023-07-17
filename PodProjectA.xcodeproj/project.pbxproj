@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		243073262A5DF82E006A87BB /* ProjectA.h in Headers */ = {isa = PBXBuildFile; fileRef = 243073252A5DF82E006A87BB /* ProjectA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243073262A5DF82E006A87BB /* PodProjectA.h in Headers */ = {isa = PBXBuildFile; fileRef = 243073252A5DF82E006A87BB /* PodProjectA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2430732D2A5DF84A006A87BB /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2430732C2A5DF84A006A87BB /* TestClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		243073222A5DF82E006A87BB /* ProjectA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProjectA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		243073252A5DF82E006A87BB /* ProjectA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectA.h; sourceTree = "<group>"; };
+		243073222A5DF82E006A87BB /* PodProjectA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodProjectA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		243073252A5DF82E006A87BB /* PodProjectA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodProjectA.h; sourceTree = "<group>"; };
 		2430732C2A5DF84A006A87BB /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -31,7 +31,7 @@
 		243073182A5DF82E006A87BB = {
 			isa = PBXGroup;
 			children = (
-				243073242A5DF82E006A87BB /* ProjectA */,
+				243073242A5DF82E006A87BB /* PodProjectA */,
 				243073232A5DF82E006A87BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,18 +39,18 @@
 		243073232A5DF82E006A87BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				243073222A5DF82E006A87BB /* ProjectA.framework */,
+				243073222A5DF82E006A87BB /* PodProjectA.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		243073242A5DF82E006A87BB /* ProjectA */ = {
+		243073242A5DF82E006A87BB /* PodProjectA */ = {
 			isa = PBXGroup;
 			children = (
-				243073252A5DF82E006A87BB /* ProjectA.h */,
+				243073252A5DF82E006A87BB /* PodProjectA.h */,
 				2430732C2A5DF84A006A87BB /* TestClass.swift */,
 			);
-			path = ProjectA;
+			path = PodProjectA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,16 +60,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243073262A5DF82E006A87BB /* ProjectA.h in Headers */,
+				243073262A5DF82E006A87BB /* PodProjectA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		243073212A5DF82E006A87BB /* ProjectA */ = {
+		243073212A5DF82E006A87BB /* PodProjectA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 243073292A5DF82E006A87BB /* Build configuration list for PBXNativeTarget "ProjectA" */;
+			buildConfigurationList = 243073292A5DF82E006A87BB /* Build configuration list for PBXNativeTarget "PodProjectA" */;
 			buildPhases = (
 				2430731D2A5DF82E006A87BB /* Headers */,
 				2430731E2A5DF82E006A87BB /* Sources */,
@@ -80,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = ProjectA;
+			name = PodProjectA;
 			productName = ProjectA;
-			productReference = 243073222A5DF82E006A87BB /* ProjectA.framework */;
+			productReference = 243073222A5DF82E006A87BB /* PodProjectA.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2430731C2A5DF82E006A87BB /* Build configuration list for PBXProject "ProjectA" */;
+			buildConfigurationList = 2430731C2A5DF82E006A87BB /* Build configuration list for PBXProject "PodProjectA" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				243073212A5DF82E006A87BB /* ProjectA */,
+				243073212A5DF82E006A87BB /* PodProjectA */,
 			);
 		};
 /* End PBXProject section */
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2430731C2A5DF82E006A87BB /* Build configuration list for PBXProject "ProjectA" */ = {
+		2430731C2A5DF82E006A87BB /* Build configuration list for PBXProject "PodProjectA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				243073272A5DF82E006A87BB /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		243073292A5DF82E006A87BB /* Build configuration list for PBXNativeTarget "ProjectA" */ = {
+		243073292A5DF82E006A87BB /* Build configuration list for PBXNativeTarget "PodProjectA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2430732A2A5DF82E006A87BB /* Debug */,
